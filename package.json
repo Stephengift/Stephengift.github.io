@@ -1,5 +1,6 @@
 {
-  "name": "aw-portfolio",
+  "homepage": "http://Stephengift.github.io/personal-portfolio",
+  "name": "personal-portfolio",
   "version": "1.1.0",
   "description": "Personal dev website - Gift Stephen Akinpelu",
   "homepage": "https://Stephengift.github.io",
@@ -35,7 +36,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
