@@ -1,0 +1,19 @@
+@import "../../../data/styles.css";
+
+.footer {
+    display: flex;
+    padding-top: 25px;
+    margin-top: 50px;
+    padding-bottom: 25px;
+}
+
+.footer-info {
+    flex-basis: 100%;
+}
+
+.footer-info-text {
+    justify-content: flex-end;
+    color: var(--tertiary-color);
+    font-size: 12px;
+    text-align: right;
+}

@@ -1,0 +1,12 @@
+:root {
+    /* ------- colors ------- */
+    --primary-color: #04040e;
+    --secondary-color: #05051f;
+    --tertiary-color: #071647;
+    --quaternary-color: #071647;
+    --link-color: #c0b524;
+
+    /* ------- fonts ------- */
+    --primary-font: "Poppins", sans-serif;
+    --secondary-font: "Railway", sans-serif;
+}

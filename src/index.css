@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Raleway:wght@500&display=swap");
+@import "./data/styles.css";
+
+body {
+    margin: 0;
+    font-family: var(--primary-font);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: rgba(236, 236, 241, 0.76);
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow-x: hidden;
+}
+
+html {
+    background-color: rgba(236, 236, 241, 0.76);
+    overflow-x: hidden;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

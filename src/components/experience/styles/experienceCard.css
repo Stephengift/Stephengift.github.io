@@ -1,0 +1,55 @@
+.experience-card {
+    display: flex;
+    justify-content: space-between;
+    background-color: snow;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.experience-content {
+    flex: 3;
+}
+
+.experience-company,
+.experience-duration,
+.experience-role,
+.experience-description {
+    margin: 4px 0;
+}
+
+.experience-company {
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.experience-duration {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+}
+
+.experience-role {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+}
+
+.experience-description {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+    line-height: 1.4;
+}
+
+.experience-skills {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+}
+
+.experience-link {
+    color: var(--secondary-color);
+    font-size: 0.8rem;
+}
+
+.experience-link:hover {
+    color: var(--link-color)
+}

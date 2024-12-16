@@ -1,0 +1,47 @@
+.connect-page {
+    background-color: rgba(236, 236, 241, 0.76);
+}
+
+.connect-ghost-container {
+    display: flex;
+    justify-content: left;
+    padding-top: 25px;
+}
+
+.connect-ghost-logo {
+    display: flex;
+    position: fixed;
+    border: 1px solid white;
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    top: 4vh;
+}
+
+.connect-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+
+.connect-subtitle {
+    width: 100% !important;
+}
+
+.socials-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+
+.connect-socials {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.spacer {
+    width: 100%;
+    padding-top: 358px;
+}
